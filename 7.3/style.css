@@ -4,21 +4,21 @@
 }
 
 .container {
-    width: 70%;
+    width: 51%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 19px;
     background-color: #000000;
-    border-radius: 50px;
+    border-radius: 100px;
 }
 
 h1 {
     color: rgb(105, 103, 188);
-    font-size: 35px;
+    font-size: 50px;
     font-family: arial black;
 }
 
 p {
-    font-size: 25px;
+    font-size: 50px;
     color: rgb(255, 255, 255);
     font-family: jet
 }
