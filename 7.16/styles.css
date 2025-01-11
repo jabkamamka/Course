@@ -1,0 +1,12 @@
+h1 {
+    background-color: #ff6600;
+}
+
+h2 {
+    background-color: #3366cc;
+}
+
+h1,
+h2 {
+    color: white
+}
