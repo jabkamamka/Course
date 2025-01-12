@@ -1,0 +1,31 @@
+.cont1 {
+    width: 350px;
+    padding: 30px;
+    width: x;
+    background-color: rgb(35, 48, 186);
+    margin: 0 1.5%;
+    font-size: 24px;
+    border-radius: 100px;
+    color: white;
+    font-family: jetbrains mono;
+}
+
+.cont2 {
+    width: 350px;
+    padding: 30px;
+    width: x;
+    background-color: rgb(35, 48, 186);
+    margin: 0 1.5%;
+    font-size: 25px;
+    border-radius: 100px;
+    color: white;
+    font-family: jetbrains mono;
+    float: right;
+
+}
+
+h2 {
+    font-family: arial;
+    font-size: 50px;
+    color: black
+}
