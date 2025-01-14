@@ -1,0 +1,22 @@
+body {
+    margin: 2% 1%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.column {
+    width: 45%;
+    position: relative;
+    float: left;
+    background-color: #f0f0f0;
+    padding: 3%;
+    border-radius: 5%;
+    box-sizing: border-box;
+    margin-right: 4%;
+    margin: 0 0 0 1%;
+}

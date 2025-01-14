@@ -29,3 +29,13 @@ h2 {
     font-size: 50px;
     color: black
 }
+
+.cont1:hover,
+.cont2:hover {
+    background-color: rgb(27, 36, 134);
+}
+
+.cont1,
+.cont2 {
+    display: inline-block;
+}
