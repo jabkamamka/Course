@@ -1,0 +1,46 @@
+.cont1 {
+    width: 350px;
+    padding: 30px;
+    width: x;
+    background-color: rgb(35, 48, 186);
+    margin: 0 1.5%;
+    font-size: 24px;
+    border-radius: 100px;
+    color: white;
+    font-family: jetbrains mono;
+    position: absolute;
+    left: 50%;
+    top: 29%;
+}
+
+.cont2 {
+    width: 350px;
+    padding: 30px;
+    width: x;
+    background-color: rgb(35, 48, 186);
+    margin: 0 1.5%;
+    font-size: 25px;
+    border-radius: 100px;
+    color: white;
+    font-family: jetbrains mono;
+    position: absolute;
+    right: 50%;
+    top: 29%;
+
+}
+
+.textbox {
+    font-family: arial;
+    z-index: 2;
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+}
+
+.cont1:hover,
+.cont2:hover {
+    background-color: rgb(27, 36, 134);
+}

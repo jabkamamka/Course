@@ -1,0 +1,13 @@
+.image {
+    margin: 10;
+    float: right;
+    height: 300px;
+    width: 300px;
+}
+
+.container {
+    margin: 10px;
+    border-width: 10px;
+    border-color: 10px;
+    border-style: solid;
+}
