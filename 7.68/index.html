@@ -10,7 +10,14 @@
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
+            align-content: flex-end;
             border: 5px solid blueviolet;
+        }
+
+        a {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 50px;
+            text-align: center;
         }
 
         .color-box {
@@ -22,6 +29,8 @@
             font-size: 18px;
             color: white;
             font-weight: bold;
+            flex-grow: 1;
+            flex-shrink: 0;
         }
 
         .color1 {
@@ -59,9 +68,11 @@
         }
     </style>
 </head>
+<div class="contrast-container">
+    <a>Топовые цвета вообще классные хайп кайф кайфуля я дурею с этой прикормки</a>
+</div>
 
 <body>
-
     <div class="contrast-container">
         <h1 class="color-box color1">#0000ff</h1>
         <h1 class="color-box color2">#e74c3c</h1>
