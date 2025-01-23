@@ -1,0 +1,83 @@
+body {
+    /* Используется шрифт Montserrat для текста внутри body */
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background: rgb(255, 255, 255);
+}
+
+.maintext {
+    font-size: 100px;
+    flex-direction: column;
+    justify-content: top;
+    justify-content: flex-start;
+}
+
+.card {
+    display: flex;
+    background-color: bisque;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 50%;
+    height: 300px;
+    margin: 10px;
+
+}
+
+.card h2 {
+    text-align: center;
+    margin: 5px;
+}
+
+
+.price {
+    text-align: center;
+    /* Размер шрифта цены */
+    font-size: 20px;
+    /* Жирное начертание для цены */
+    font-weight: bold;
+}
+
+
+.button {
+    /* Цвет фона кнопки */
+    font-family: arial black;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    display: flex;
+    border-radius: 10px;
+    background-color: blue;
+    text-decoration: none;
+    text-align: center;
+    height: 30px;
+    margin: 10px;
+}
+
+.button:hover {
+    /* Изменение цвета фона кнопки при наведении */
+    box-shadow: 0px 0px 10px 1px rgb(4, 161, 197);
+}
+
+ul {
+
+    /* Удаление маркеров списка */
+    list-style: none;
+}
+
+li {
+    /* Внешний отступ элементов списка */
+    margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    body {
+        /* Изменение направления отображения элементов при ширине экрана до 768px */
+        flex-direction: column;
+        /* Выравнивание элементов по центру при изменении направления */
+        align-items: center;
+    }
+}

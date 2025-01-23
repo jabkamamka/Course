@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #f7f7f2;
+        }
+
+        h1 {
+            font-size: 200%;
+            display: flex;
+            font-family: Arial black;
+            justify-content: center;
+            color: #4D372a
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            /* grid-template-columns: repeat(3, 1fr); */
+
+            grid-template-rows: 1fr 1fr 1fr;
+            /* gap: 10px; */
+            /* gap: 10px 20px; */
+            row-gap: 10px;
+            column-gap: 20px;
+            padding: 20px;
+            background-color: #f7f7f2;
+        }
+
+        p {
+            grid-column: span 1;
+            grid-row: span 1;
+            background-color: #709fa5;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 20px;
+            margin: 0;
+        }
+
+        .last-item {
+            grid-column: span 2;
+        }
+    </style>
+    <title>grid-basic-1</title>
+</head>
+
+<body>
+    <h1 algin="center">Наши услуги</h1>
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil rerum cupiditate perferendis deleniti totam
+            iusto expedita exercitationem, optio distinctio assumenda.
+        </p>
+        <p>Далеко-далеко за словесными горами в стране гласных и согласных живут, рыбные тексты. Вершину жаренные имени
+            имеет продолжил, предупредила меня моей обеспечивает путь?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum neque ratione officiis sunt debitis pariatur
+            molestiae eius fuga ducimus! Inventore!</p>
+    </div>
+</body>
+
+</html>
